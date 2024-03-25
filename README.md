@@ -63,7 +63,7 @@ __[Ruby Blog](#ruby-blog)__:<br/>
 <a id="about"></a>
 ### 📗 About:
 
-This project aims to follow the recommended [starting point for the Ruby on Rails](https://guides.rubyonrails.org/getting_started.html) framework to get me accustomed to the 'Ruby Way.' It is purely didactic and focused on enlightening me about this language and framework so that I can bring my development experience to yet another stack currently needed for my development.
+This project aims to follow the recommended [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) framework to get me accustomed to the 'Ruby Way.' It is purely didactic and focused on enlightening me about this language and framework so that I can bring my development experience to yet another stack currently needed for my development.
 
 <br/>
 
