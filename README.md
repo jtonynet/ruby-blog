@@ -66,7 +66,7 @@ __[Ruby Blog](#ruby-blog)__:<br/>
 
 This project of a Blog is purely didactic and aims to follow the recommendations of [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) so that I can familiarize myself with the 'Ruby Way'. Focused on enlightening me about this language and framework so that I can apply my development experience to yet another stack of technologies needed for my development.
 
-I do not intend to delve beyond the basic initial contact and some testing.
+I don't intend to delve too deeply into this repository beyond basic initial contact and some testing. In the near future I intend to create other repositories with studies based on documentation, courses, tutorials and more advanced books about the language and the framework.
 
 #### 📷 Screenshots
 |               |               |
