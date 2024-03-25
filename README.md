@@ -64,7 +64,9 @@ __[Ruby Blog](#ruby-blog)__:<br/>
 
 #### 📋 Ruby On Rails Blog
 
-This project aims to follow the recommended [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) framework to get me accustomed to the 'Ruby Way.' It is purely didactic and focused on enlightening me about this language and framework so that I can bring my development experience to yet another stack currently needed for my development.
+This project of a Blog is purely didactic and aims to follow the recommendations of [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) so that I can familiarize myself with the 'Ruby Way'. Focused on enlightening me about this language and framework so that I can apply my development experience to yet another stack of technologies needed for my development.
+
+I do not intend to delve beyond the basic initial contact and some testing.
 
 #### 📷 Screenshots
 |               |               |
@@ -209,6 +211,10 @@ bin/rails server
 bin/rails generate model Comment commenter:string body:text article:references
 bin/rails db:migrate
 bin/rails generate controller Comments
+
+bin/rails generate migration AddStatusToArticles status:string
+bin/rails generate migration AddStatusToComments status:string
+bin/rails db:migrate
 
 -->
 
