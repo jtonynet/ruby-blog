@@ -63,15 +63,17 @@ __[Ruby Blog](#ruby-blog)__:<br/>
 <a id="about"></a>
 ### 📗 About:
 
-Ruby On Rails Blog
+#### 📋 Ruby On Rails Blog
 
 This project aims to follow the recommended [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) framework to get me accustomed to the 'Ruby Way.' It is purely didactic and focused on enlightening me about this language and framework so that I can bring my development experience to yet another stack currently needed for my development.
 
-
+#### 📷 Screenshots
 |               |               |
 | ------------- | ------------- |
 | <img src="./docs/assets/images/screenshots/retrieve_articles.png">  | <img src="./docs/assets/images/screenshots/retrieve_article.png">  |
 | <img src="./docs/assets/images/screenshots/edit_article.png">  | <img src="./docs/assets/images/screenshots/new_article.png">  |
+
+#### 📚 Another References
 
 I also used the following videos in PT-BR as a source:
 - [Ruby on Rails 7 - Construindo uma aplicação passo a passo](https://www.youtube.com/watch?v=Ldvdovngwhs)
