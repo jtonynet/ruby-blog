@@ -72,11 +72,14 @@ This project aims to follow the recommended [Getting Started with Rails](https:/
 | <img src="./docs/assets/images/screenshots/retrieve_articles.png">  | <img src="./docs/assets/images/screenshots/retrieve_article.png">  |
 | <img src="./docs/assets/images/screenshots/edit_article.png">  | <img src="./docs/assets/images/screenshots/new_article.png">  |
 
+
 #### 📚 Another References
 
-I also used the following videos in PT-BR as a source:
+
+I also used the following videos in PT-BR as a source, they are quite basic but enlightening:
 - [Ruby on Rails 7 - Construindo uma aplicação passo a passo](https://www.youtube.com/watch?v=Ldvdovngwhs)
 - ~~[Introdução a testes com Ruby e RSpec](https://www.youtube.com/watch?v=mIP_6jKjF4A)~~
+
 
 <br/>
 
@@ -201,28 +204,11 @@ TODO: How to `Deployment Application`
 -->
 
 <!-- 
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+bin/rails server
+bin/rails generate model Comment commenter:string body:text article:references
+bin/rails db:migrate
+bin/rails generate controller Comments
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 -->
+
