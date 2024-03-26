@@ -24,7 +24,7 @@
 [<img src="./docs/assets/images/icons/rubymine.svg" width="25px" height="25px" alt="rubymine ide logo" title="RubyMine IDE">](https://www.jetbrains.com/ruby/download/#section=linux) [<img src="./docs/assets/images/icons/docker.svg" width="25px" height="25px" alt="docker logo" title="Docker">](https://www.docker.com/) [<img src="./docs/assets/images/icons/githubactions.svg" width="25px" height="25px" alt="githubactions logo" title="Github Actions">](https://docs.github.com/pt/actions)
 -->
 
-![Badge Status](https://img.shields.io/badge/STATUS-CLOSED-blue) <!--![Badge GitHubActions]()-->
+![Badge Status](https://img.shields.io/badge/STATUS-CLOSED_🔐-blue) <!--![Badge GitHubActions]()-->
 
 ---
 
@@ -142,7 +142,7 @@ graph LR;
 
   subgraph Backend
     subgraph Ruby On Rails API
-        A[🌐 Routes] -->|Request| B[🖥️ Controller]
+        A[🌐 Routes] -->|Request| B[⚙️ Controller]
         B -->|Data manipulation| C[📄 Model]
         C -->|Data| B
         B -->|Request Render| D[🖼️ View]
