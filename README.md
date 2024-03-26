@@ -173,12 +173,10 @@ The header figures on this page were created with the help of artificial intelli
 
 __The following prompts were used for creation in [Bing IA:](https://www.bing.com/images/create/)__
 
-
 <details>
   <summary><b>Ruby Cartoon</b></summary>
 "A giant red ruby ​​symbol of the ruby ​​programming language, among a mine cart moving at good speed on a rail. flat colors, white background, cartoon style comic book"<b>(sic)</b>
 </details>
-
 
 <br/>
 
