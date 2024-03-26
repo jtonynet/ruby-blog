@@ -26,6 +26,8 @@
 
 ![Badge Status](https://img.shields.io/badge/STATUS-CLOSED_🔐-blue) <!--![Badge GitHubActions]()-->
 
+_*This study is concluded; its objective as a first contact with the framework has been achieved._
+
 ---
 
 ## 🕸️ Found me in Web:
