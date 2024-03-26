@@ -93,7 +93,7 @@ I also used the following videos in PT-BR as a source, they are quite basic but 
 <a id="run"></a>
 ### 💻 Run the Project:
 
-We are running the application locally without containerization as seen in `Introduction` as seen in [about section](#about)
+We are running the application locally without containerization as seen in [about section](#about)
 
 * Ruby Version:
     * <img src="./docs/assets/images/icons/ruby.svg" width="15px" height="15px" alt="ruby logo" title="Ruby"> 3.2.2 [Install Ruby Instructions](https://www.ruby-lang.org/en/documentation/installation/#apt)
