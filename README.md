@@ -15,7 +15,6 @@
 [<img src="./docs/assets/images/icons/ruby.svg" width="25px" height="25px" alt="ruby logo" title="Ruby">](https://www.ruby-lang.org/en/) [<img src="./docs/assets/images/icons/rubygems.svg" width="25px" height="25px" alt="rubygems logo" title="Ruby Gems">](https://rubygems.org/) [<img src="./docs/assets/images/icons/rubyonrails.svg" width="25px" height="25px" alt="rubyonrails logo" title="Ruby On Rails">](https://rubyonrails.org/) [<img src="./docs/assets/images/icons/html5.svg" width="25px" height="25px" alt="html 5 logo" title="HTML 5">](https://dev.w3.org/html5/spec-LC/) [<img src="./docs/assets/images/icons/css3.svg" width="25px" height="25px" alt="css 3 logo" title="CSS 3">](https://www.w3.org/Style/CSS/Overview.en.html) [<img src="./docs/assets/images/icons/javascript.svg" width="25px" height="25px" alt="javascript logo" title="JavaScript">](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  [<img src="./docs/assets/images/icons/sqlite.svg" width="25px" height="25px" alt="SQlite" title="SQlite">](https://www.sqlite.org/index.html) [<img src="./docs/assets/images/icons/ubuntu.svg" width="25px" height="25px Logo" title="Ubunto" alt="Ubunto" />](https://ubuntu.com/) [<img src="./docs/assets/images/icons/visualstudiocode.svg" width="25px" height="25px" alt="VsCode Logo" title="VsCode">](https://code.visualstudio.com/) 
 
 <!--
-
 [<img src="./docs/assets/images/icons/nodedotjs.svg" width="25px" height="25px" alt="nodedotjs logo" title="NodeJS">](https://nodejs.org/en) [<img src="./docs/assets/images/icons/webpack.svg" width="25px" height="25px" alt="webpack logo" title="WebPack">](https://webpack.js.org/)
 
 [<img src="./docs/assets/images/icons/cucumber.svg" width="25px" height="25px" alt="cucumber logo" title="Cucumber">](https://cucumber.io/)
@@ -75,14 +74,11 @@ I don't intend to delve too deeply into this repository beyond basic initial con
 <img src="./docs/assets/images/screenshots/edit_article.png"> <br/>
 <img src="./docs/assets/images/screenshots/new_article.png"> <br/>
 
-
 #### 📚 Another References
-
 
 I also used the following videos in PT-BR as a source, they are quite basic but enlightening:
 - [Ruby on Rails 7 - Construindo uma aplicação passo a passo](https://www.youtube.com/watch?v=Ldvdovngwhs)
 - ~~[Introdução a testes com Ruby e RSpec](https://www.youtube.com/watch?v=mIP_6jKjF4A)~~
-
 
 <br/>
 
@@ -132,7 +128,6 @@ If the commands have run successfully, your application will be running at the a
     diagrams by:
     https://mermaid.js.org/
 -->
-
 ```mermaid
 graph LR;
 
@@ -214,18 +209,6 @@ TODO: How to `Debug Application`
 
 ---
 
-<a id="diagrams"></a>
-## 📊 System Diagrams:
-
-<br/>
-
-__[Entity Relationship Diagram PDF Link](./erd.pdf)__
-
-
-[⤴️ Back to Index](#index)
-
----
-
 <a id="observability"></a>
 ### 🕵️ Observability:
 
@@ -238,7 +221,6 @@ TODO: How to `Observes Application`
 -->
 
 <!-- 
-
 bin/rails server
 bin/rails generate model Comment commenter:string body:text article:references
 bin/rails db:migrate
@@ -247,6 +229,5 @@ bin/rails generate controller Comments
 bin/rails generate migration AddStatusToArticles status:string
 bin/rails generate migration AddStatusToComments status:string
 bin/rails db:migrate
-
 -->
 
