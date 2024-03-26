@@ -25,7 +25,7 @@
 [<img src="./docs/assets/images/icons/rubymine.svg" width="25px" height="25px" alt="rubymine ide logo" title="RubyMine IDE">](https://www.jetbrains.com/ruby/download/#section=linux) [<img src="./docs/assets/images/icons/docker.svg" width="25px" height="25px" alt="docker logo" title="Docker">](https://www.docker.com/) [<img src="./docs/assets/images/icons/githubactions.svg" width="25px" height="25px" alt="githubactions logo" title="Github Actions">](https://docs.github.com/pt/actions)
 -->
 
-![Badge Status](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-green) <!--![Badge GitHubActions]()-->
+![Badge Status](https://img.shields.io/badge/STATUS-CLOSED-blue) <!--![Badge GitHubActions]()-->
 
 ---
 
@@ -44,13 +44,13 @@ __[Ruby Blog](#ruby-blog)__:<br/>
   1. ⤴️ [Index](#index)
   2. 📗 [About](#about)
   3. 💻 [Run the Project](#run)
-  4. 🤖 [Use of AI](#ia)
+  4. 📊 [Diagrams](#diagrams)
+  5. 🤖 [Use of AI](#ia)
 
 <!--
-  4. ✅ [Tests](#tests)
-  5. 🪲 [Debug](#debug)
-  6. 📊 [Diagrams](#diagrams)
-  7. 🕵️ [Observability](#observability) 
+  6. ✅ [Tests](#tests)
+  7. 🪲 [Debug](#debug)
+  8. 🕵️ [Observability](#observability) 
 -->
  
 <br/>
@@ -69,10 +69,11 @@ This project of a Blog is purely didactic and aims to follow the recommendations
 I don't intend to delve too deeply into this repository beyond basic initial contact and some testing. In the near future I intend to create other repositories with studies based on documentation, courses, tutorials and more advanced books about the language and the framework.
 
 #### 📷 Screenshots
-|               |               |
-| ------------- | ------------- |
-| <img src="./docs/assets/images/screenshots/retrieve_articles.png">  | <img src="./docs/assets/images/screenshots/retrieve_article.png">  |
-| <img src="./docs/assets/images/screenshots/edit_article.png">  | <img src="./docs/assets/images/screenshots/new_article.png">  |
+
+<img src="./docs/assets/images/screenshots/retrieve_articles.png"> <br/>
+<img src="./docs/assets/images/screenshots/retrieve_article.png"> <br/>
+<img src="./docs/assets/images/screenshots/edit_article.png"> <br/>
+<img src="./docs/assets/images/screenshots/new_article.png"> <br/>
 
 
 #### 📚 Another References
@@ -92,7 +93,7 @@ I also used the following videos in PT-BR as a source, they are quite basic but 
 <a id="run"></a>
 ### 💻 Run the Project:
 
-We are currently running the application locally without containerization, but infra dependencies are dockerized
+We are running the application locally without containerization as seen in `Introduction` as seen in [about section](#about)
 
 * Ruby Version:
     * <img src="./docs/assets/images/icons/ruby.svg" width="15px" height="15px" alt="ruby logo" title="Ruby"> 3.2.2 [Install Ruby Instructions](https://www.ruby-lang.org/en/documentation/installation/#apt)
@@ -102,19 +103,63 @@ We are currently running the application locally without containerization, but i
     * <img src="./docs/assets/images/icons/rubyonrails.svg" width="15px" height="15px" alt="rubyonrails logo" title="Ruby On Rails"> 7.1.3
 <br/>
 
- <!-- * <img src="./docs/assets/images/icons/nodedotjs.svg" width="15px" height="15px" alt="node logo" title="NodeJs"> [Install NodeJs Instructions](https://nodejs.org/en)
-  * <img src="./docs/assets/images/icons/docker.svg" width="15px" height="15px" alt="docker logo" title="Docker"> [Install Docker Instructions](https://docs.docker.com/engine/install/)
+* Database:
+    * <img src="./docs/assets/images/icons/sqlite.svg" width="15px" height="15px" alt="sqlite logo" title="SQLite"> [Install SQLite](https://www.sqlite.org/)
+<br/>
+<br/>
+
+<img src="./docs/assets/images/icons/ubuntu.svg" width="15px" height="15px" alt="ubuntu logo" title="Ubuntu"> __Ubuntu 22.04.4 LTS__ Operating System. With all the necessary dependencies installed, at the root of the project, enter the following commands :
+
+```
+$ bundle install
+$ bin/rails db:create
+$ bin/rails db:migrate
+$ bin/rails server
+```
+
+If the commands have run successfully, your application will be running at the address http://localhost:3000/articles
 
 <br/>
 
+[⤴️ Back to Index](#index)
 
-<img src="./docs/assets/images/icons/docker.svg" width="15px" height="15px" alt="docker logo" title="Docker"> Run `docker compose` comands to create `up & running` infra dependencies:
+---
 
-```
-$ docker compose build
-$ docker compose up
-```
+<a id="diagrams"></a>
+### 📊 Diagrams:
+
+<!-- 
+    diagrams by:
+    https://mermaid.js.org/
 -->
+
+```mermaid
+graph LR;
+
+  subgraph Client
+    USER(["👩‍💻 User"])
+  end
+
+  subgraph Backend
+    subgraph Ruby On Rails API
+        A[🌐 Routes] -->|http Request| B[🖥️ Controller]
+        B -->|Data manipulation| C[📄 Model]
+        C -->|Data| B
+        B -->|Request Render| D[🖼️ View]
+        D -->|Render| B
+      end
+
+      subgraph DataBase
+        DB[("🗄️ SQLite")]
+      end 
+
+      USER --> A
+      C --> DB
+  end
+```
+
+_**Overall low-fidelity MVC model diagram*_
+
 <br/>
 
 [⤴️ Back to Index](#index)
@@ -189,19 +234,6 @@ TODO: How to `Observes Application`
 <br/>
 
 [⤴️ Back to Index](#index)
-
----
-
-<a id="deployment"></a>
-### 🚀 Deployment Instructions:
-
-TODO: How to `Deployment Application`
-
-<br/>
-
-[⤴️ Back to Index](#index)
-
----
 
 -->
 
