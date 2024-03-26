@@ -137,7 +137,7 @@ graph LR;
 
   subgraph Backend
     subgraph Ruby On Rails API
-        A[🌐 Routes] -->|http Request| B[🖥️ Controller]
+        A[🌐 Routes] -->|Request| B[🖥️ Controller]
         B -->|Data manipulation| C[📄 Model]
         C -->|Data| B
         B -->|Request Render| D[🖼️ View]
@@ -148,7 +148,7 @@ graph LR;
         DB[("🗄️ SQLite")]
       end 
 
-      USER --> A
+      USER -->|http Request| A
       C --> DB
   end
 ```
