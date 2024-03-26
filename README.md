@@ -104,12 +104,17 @@ We are running the application locally without containerization as seen in [abou
 <br/>
 <br/>
 
-<img src="./docs/assets/images/icons/ubuntu.svg" width="15px" height="15px" alt="ubuntu logo" title="Ubuntu"> __Ubuntu 22.04.4 LTS__ Operating System. With all the necessary dependencies installed, at the root of the project, enter the following commands :
+<img src="./docs/assets/images/icons/ubuntu.svg" width="15px" height="15px" alt="ubuntu logo" title="Ubuntu"> __Ubuntu 22.04.4 LTS__ operating system. If this is the first time you are running the project, with all the necessary dependencies installed, at the project root, enter the following commands:" :
 
 ```
 $ bundle install
 $ bin/rails db:create
 $ bin/rails db:migrate
+$ bin/rails server
+```
+
+If you have already installed the bundle and migrated the database, only one command will be necessary:
+```
 $ bin/rails server
 ```
 
