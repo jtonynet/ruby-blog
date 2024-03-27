@@ -47,16 +47,8 @@ __[Ruby Blog](#ruby-blog)__:<br/>
   3. 💻 [Run the Project](#run)
   4. 📊 [Diagrams](#diagrams)
   5. 🤖 [Use of AI](#ia)
-
-<!--
-  6. ✅ [Tests](#tests)
-  7. 🪲 [Debug](#debug)
-  8. 🕵️ [Observability](#observability) 
--->
  
 <br/>
-
-[⤴️ Back to Index](#index)
 
 ---
 
@@ -189,41 +181,6 @@ Hire artists for commercial or more elaborate projects and Learn Ingenuity!
 <br/>
 
 [⤴️ Back to Index](#index)
-
-<!--
-
-<a id="tests"></a>
-### ✅ Tests:
-
-TODO: How to `Run the Test Suite`
-
-<br/>
-
-[⤴️ Back to Index](#index)
-
----
-
-<a id="debug"></a>
-### 🪲 Debug:
-
-TODO: How to `Debug Application`
-
-<br/>
-
-[⤴️ Back to Index](#index)
-
----
-
-<a id="observability"></a>
-### 🕵️ Observability:
-
-TODO: How to `Observes Application`
-
-<br/>
-
-[⤴️ Back to Index](#index)
-
--->
 
 <!-- 
 bin/rails server
