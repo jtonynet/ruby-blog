@@ -30,7 +30,7 @@ _*This study is concluded; its objective as a first contact with the framework h
 
 ---
 
-## 🕸️ Found me in Web:
+## 🕸️ Found me in Web
 
 [![linkedin](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jos%C3%A9-r-99896a39/) [![dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/learningenuity) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:learningenuity@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/aromademirtilo) [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/learningenuity) 
 
@@ -39,7 +39,7 @@ _*This study is concluded; its objective as a first contact with the framework h
 ## 📁 The Project:
 
 <a id="index"></a>
-### ⤴️ index:
+### ⤴️ index
 
 __[Ruby Blog](#ruby-blog)__:<br/>
   1. ⤴️ [Index](#index)
@@ -53,7 +53,7 @@ __[Ruby Blog](#ruby-blog)__:<br/>
 ---
 
 <a id="about"></a>
-### 📗 About:
+### 📗 About
 
 #### 📋 Ruby On Rails Blog
 
@@ -81,7 +81,7 @@ I also used the following videos in PT-BR as a source, they are quite basic but 
 ---
 
 <a id="run"></a>
-### 💻 Run the Project:
+### 💻 Run the Project
 
 We are running the application locally without containerization as seen in [about section](#about)
 
@@ -121,7 +121,7 @@ If the commands have run successfully, your application will be running at the a
 ---
 
 <a id="diagrams"></a>
-### 📊 Diagrams:
+### 📊 Diagrams
 
 <!-- 
     diagrams by:
@@ -161,7 +161,7 @@ _**Overall low-fidelity MVC model diagram*_
 ---
 
 <a id="ia"></a>
-### 🤖 Use of AI:
+### 🤖 Use of AI
 
 The header figures on this page were created with the help of artificial intelligence and a minimum of retouching and construction in Gimp [<img src="./docs/assets/images/icons/gimp.svg" width="30" height="30 " title="Gimp" alt="Gimp Logo" />](https://www.gimp.org/)
 
