@@ -36,7 +36,7 @@ _*This study is concluded; its objective as a first contact with the framework h
 
 ---
 
-## 📁 The Project:
+## 📁 The Project
 
 <a id="index"></a>
 ### ⤴️ index
